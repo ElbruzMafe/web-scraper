@@ -1,0 +1,14 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Minimal Node.js scraper that extracts headings from a page and writes them to JSON",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0"
+  }
+}
